@@ -15,4 +15,9 @@ public class BS_LowerBound {
         }
         return ans;
     }
+
+    public static void main(String[] args) {
+        int[] arr = {3, 5, 8, 15, 19};
+        System.out.println("The lower bound is the index: "+lowerBoundOptimal(arr, 9));
+    }
 }
